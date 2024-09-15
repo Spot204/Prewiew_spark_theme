@@ -174,6 +174,9 @@ body {
 }
 
 .mid_header {
+    margin: 0;
+    padding: 20px 0;
+
     ul {
         list-style: none;
         display: flex;
@@ -322,6 +325,7 @@ body {
     }
 
     .menu_shop {
+        z-index: 1;
         top: 181px;
         background-color: #fff;
         left: 1px;
@@ -417,5 +421,106 @@ body {
     .demos:hover ul {
         visibility: inherit;
 
+    }
+}
+
+section {
+    background: linear-gradient(to bottom, #c6ecec 0 10%, #fff 50% 100%);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 80px 150px;
+
+    .main_1 {
+        margin: 0;
+        padding: 0px;
+
+        .img_main1 {
+            background-color: gray;
+            width: 100%;
+            height: 700px;
+            border-radius: 20px;
+        }
+
+        .nav_main_1 {
+            padding: 0 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            ul {
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                list-style: none;
+
+                li {
+                    margin: 0 10px;
+                    background-color: #230052;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        i {
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            cursor: pointer;
+        }
+    }
+
+    *.main_2 {
+        box-sizing: border-box;
+
+    }
+
+    .main_2 {
+        margin-top: 15px;
+        box-sizing: border-box;
+
+        h1 {
+            font-size: 35px;
+            text-align: center;
+            color: #230052;
+            font-weight: bolder;
+        }
+
+        ul {
+            flex-wrap: wrap;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: block;
+                text-align: center;
+                position: relative;
+
+                .img {
+
+                    flex-grow: 1;
+                    display: flex;
+                    width: 100%;
+                    background-color: gray;
+                    height: 350px;
+                    width: 350px;
+                    border-radius: 10%;
+                }
+
+                a {
+                    text-decoration: underline;
+                    color: #47c1bf;
+                    text-decoration: underline;
+                    font-size: 25px;
+
+                }
+            }
+        }
     }
 }
